@@ -11,7 +11,7 @@ DIRECTORIO_BACKUP="./Backup"
 mkdir -p "$DIRECTORIO_BACKUP"
 
 # Ejecutamos el backup
-mysqldump -u prestausuario -pprestacontraseña PrestamosElPinar > "$DIRECTORIO_BACKUP/$NOMBRE_BACKUP"
+mysqldump -u prestausuario -pprestacontrasena PrestamosElPinar > "$DIRECTORIO_BACKUP/$NOMBRE_BACKUP"
 
 # Mensaje de confirmación
 echo "Backup creado en $DIRECTORIO_BACKUP/$NOMBRE_BACKUP"
