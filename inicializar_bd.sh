@@ -3,7 +3,7 @@
 # Configuración de MySQL
 DB_NAME="PrestamosElPinar"
 DB_USER="prestausuario"
-DB_PASS="prestacontraseña"
+DB_PASS="prestacontrasena"
 
 # Crear la base de datos si no existe
 echo "Creando la base de datos $DB_NAME si no existe..."
